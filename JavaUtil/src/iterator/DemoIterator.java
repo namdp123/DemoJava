@@ -39,6 +39,7 @@ public class DemoIterator {
 		
 		//Hien thi danh sach theo chieu nguoc lai
 		System.out.println();
+		System.out.println("Hien thi danh sach theo chieu nguoc lai: ");
 		while(litr.hasPrevious()) {
 			Object element = litr.previous();
 			System.out.println(element);
